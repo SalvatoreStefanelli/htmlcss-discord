@@ -96,14 +96,32 @@ button {
     background-color: lightgrey;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .queue {
     width: 70%;
     height: 380px;
     background-color: green;
+    text-align: center;
     border: 2px dashed black;
+}
+
+.head_queue {
+    width: 100%;
+    height: 20%;
+}
+
+.centre_queue {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_queue {
+    width: 30%;
+    height: 20%;
 }
 
 .foot_main {
