@@ -268,8 +268,13 @@ footer {
     padding: 3rem 0;
 }
 
+footer h3 {
+    font-size: 2.25rem;
+}
+
 footer h5 {
     margin-bottom: 1rem;
+    color: blue;
 }
 
 a {
@@ -277,8 +282,16 @@ a {
     color: var(--discord-white);
 }
 
+i {
+    margin-right: 1rem;
+}
+
 .title_foot {
     color: blue;
+}
+
+.social {
+    padding-top: 1rem;
 }
 
 .flag {
@@ -306,28 +319,28 @@ ul {
 
 .secondary_foot {
     width: 100%;
-    background-color: rgb(55, 51, 51);
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
-.foot_color{
+.foot_color {
     width: 70%;
-    height: 80px;
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
+    border-top: 1px solid var(--discord-primary);
 }
 
 .foot_logo {
     width: 100px;
     height: 50px;
+    margin-top: 1rem;
 }
 
 .button {
-    width: 150px;
-    height: 40px;
-    background-color: rgb(79, 79, 223);
+    padding: 0 1rem;    
+    background-color: var(--discord-primary);
     border-radius: 20px;
     color: white;
+    margin-top: 1rem;
 }
